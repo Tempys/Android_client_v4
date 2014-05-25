@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_client.iml" filepath="$PROJECT_DIR$/Spring_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_client_v3.iml" filepath="$PROJECT_DIR$/Spring_client_v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_client_v4.iml" filepath="$PROJECT_DIR$/Spring_client_v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_v3.iml" filepath="$PROJECT_DIR$/Test_v3.iml" />
+    </modules>
+  </component>
+</project>
+
