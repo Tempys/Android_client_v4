@@ -31,7 +31,7 @@ import com.google.gson.Gson;
 
 public class test extends Activity implements View.OnClickListener {
 
-    TextView tt;
+
     Button register;
     conn Task;
     final private String TAG = "login";
@@ -117,10 +117,11 @@ public class test extends Activity implements View.OnClickListener {
 
         @Override
         protected void onPostExecute(String result) {
+            Log.e("TAG", result.length()+" "+ result);
 
-            Toast.makeText(getApplicationContext(),result,Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(),result,Toast.LENGTH_LONG).show();
             Log.e("TAG", "YEAGGGG!!!!!!!!!!");
-            tt.setText(result);
+
         }
         }
 

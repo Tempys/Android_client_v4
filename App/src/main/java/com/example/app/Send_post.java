@@ -84,11 +84,17 @@ public class Send_post {
 
             HttpPost post = new HttpPost(url);
 
+            // put data in HashMap
+            paramList.put("login",r.login);
+            paramList.put("password",r.password);
+            paramList.put("surname",r.surname);
+            paramList.put("name",r.name);
+
 
 
             //convert parameters into JSON object
             Gson gson = new Gson();
-            String json = gson.toJson(r);
+            String json = gson.toJson(paramList);
             Log.e("TAG", json);
 
             // post.setEntity(new UrlEncodedFormEntity(paramList));
